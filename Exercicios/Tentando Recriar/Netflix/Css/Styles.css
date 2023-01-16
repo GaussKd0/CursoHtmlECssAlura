@@ -1,0 +1,153 @@
+*{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.Planos{
+    width: 940px;
+    margin: 3 auto;
+    text-align: center;
+    padding: 20px;
+}
+.Novo{
+    display: inline;
+    background: red;
+    border-radius: 15px;
+    padding: 2px 7px;
+    color: #fff;
+    margin-right: 8px;
+    font-weight: 700;
+    
+}
+span{
+  font-size: 18px;
+  font-weight: 400;
+
+}
+.span2{
+    color: #333333;
+    font-weight: 900;
+}
+.Planos a{
+    padding: 5px;
+    color: #0071eb;
+    font-weight: 700;
+    text-decoration: none;
+    padding-left: 15px;
+    
+}
+.corpo{
+    background-image: url(../Imgs/Corpo.jpg);
+    height: 80%;
+    border-bottom: 8px solid #222;
+    
+}
+header{
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+}
+header img{
+    padding-left: 30px;
+    width: 11%;
+}
+header a{
+    text-decoration: none;
+    background: red;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 50px;
+    font-weight: 700;
+    
+}
+main h1{
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 200px;
+  max-width: 640px;
+  font-size: 3.125rem;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.01);
+}
+main h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 640px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.01);
+}
+main p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.01);
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+#email{
+    padding-right: 400px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 2px solid #ffa00a;
+    border-radius: 2px;
+}
+#enviar{
+    background: #FF0000 ;
+    color: #fff;
+    border: 1px solid black;
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 20px 30px;
+}
+.pernas{
+    position: relative;
+    background: #000;
+}
+.Pernas-titulo{
+    top: 100px;
+    right: 1000px;
+    background: #000;
+    position: absolute;
+    margin-left: 300px;
+    font-size: 42px;
+    padding: 5px;
+    font-weight:700;
+    color: #FFFFFF;
+}
+.Pernas-sub{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 180px;
+
+}
+.tv{
+    color: #fff;
+    background: #000;
+    width: 940px;
+    display: flex;
+    margin: 0 auto;
+    
+}
+#Tv{
+    width: 50%;
+}
+
+
+
+
