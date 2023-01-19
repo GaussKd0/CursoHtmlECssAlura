@@ -1,0 +1,76 @@
+body{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background: #141414;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 300px;
+}
+
+main h1 {
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 20px 0;
+    
+}
+main li{
+    display: inline-block;
+    
+}
+main img{
+    margin: 40px 0 0 40px;
+    height: 10vw;
+    background-size: cover;
+    border-radius: 4px;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    transition: 0.1s all;
+    border-color: #FFFFFF;
+    
+}
+main img:hover{
+    border: 3px solid white;
+}
+main span{
+    display: block;
+    padding: 10px 0 0 0;
+    text-align: center;
+    color: gray;
+    font-size: 26px;
+    transition: 0.1s all;
+}
+main span:hover{
+    color: #FFFFFF;
+}
+.perfis{
+     width: 240px;
+     margin: 0 auto;
+}
+.gerenciar{
+    margin: 2em 0 1em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid grey;
+    color: grey;
+    padding: 0.7em 1.7em;
+    font-size: 22px;
+    font-weight: 600;
+}
+.gerenciar:hover{
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+.centralizado{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}

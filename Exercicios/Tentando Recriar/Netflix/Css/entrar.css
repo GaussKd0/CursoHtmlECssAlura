@@ -1,0 +1,125 @@
+*{
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+body{
+    background-image:url(../Imgs/Corpo.jpg);
+    background-size:100%; 
+    margin: 0;
+    
+    
+}
+
+header img{
+    width: 11%;
+    
+}
+.entrar-form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+form{
+    width: 400px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-left: 50px;
+    
+}
+form h1 {
+    margin-top: 50px;
+    color: #fff;
+}
+.email, .senha{
+    font-weight: 500;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 16px;
+    width: 80%;
+    height: 45px;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    background: #333333;
+    border-bottom: 2px solid #e87c03;;
+    padding-left: 20px;
+}
+.senha{
+    margin-top: 30px;
+}
+.entrar{
+    margin-top: 30px;
+    width: 86%;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    background: red;
+    display: block;
+    border-radius: 4px;
+    border: none;
+    color: #FFFF;
+}
+.check{
+    margin-top: 15px;
+    border: 0;
+    border-radius: 2px;
+   
+}
+
+.sp{
+    padding-top:  50px;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.ajuda{
+    font-size: 14px;
+    color: #b3b3b3;
+    padding-left: 70px ;
+}
+
+.sp1{
+    font-weight: 500;
+    color: #b3b3b3;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+}
+.sp1 > a{
+    font-weight: 500;
+    color: #fff;
+
+}
+.div{
+    max-width: 300px;
+}
+.sp3{
+    font-size: 13px;
+    color: #b3b3b3;
+     
+}
+.sp3 a {
+    color: #0071eb;
+    text-decoration: none;
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.9);
+    height: 300px;
+}
+footer p{
+    margin-left: 400px;
+    font-size: 16px;
+    color: #737373;
+}
+footer a{
+    color: #737373;
+  
+}
+
+footer p {
+    padding-top: 70px;
+
+}
+
+

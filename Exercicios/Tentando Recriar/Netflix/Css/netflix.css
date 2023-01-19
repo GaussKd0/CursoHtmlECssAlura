@@ -1,0 +1,30 @@
+
+header{
+    background: black;
+    opacity: 0.7;
+    position: relative;
+
+}
+
+header img {
+    margin-left: 50px;
+    opacity: 1;
+    width: 100px;
+    
+}
+
+header ul {
+    display: inline-block; 
+    vertical-align: middle;
+    
+}
+header li{
+   margin-left: 20;
+}
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 0 0;
+
+    
+}
